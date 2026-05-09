@@ -1,0 +1,32 @@
+# Flutter install & troubleshooting (macOS)
+# 1. Install git if needed:   xcode-select --install
+# 2. Clone Flutter SDK:       git clone https://github.com/flutter/flutter.git -b stable ~/flutter
+# 3. Add Flutter to PATH (zsh): 
+#    echo 'export PATH="$HOME/flutter/bin:$PATH"' >> ~/.zshrc
+#    source ~/.zshrc
+# 4. Verify install:          flutter doctor
+# 5. In project root run:     flutter pub get
+#                             flutter run
+# If you prefer Homebrew: brew install --cask flutter
+# For more options see: https://flutter.dev/docs/get-started/install
+
+name: mscs5331_assignment1
+description: A simple unit conversion Flutter app for the assignment.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Add other dependencies here if needed
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
