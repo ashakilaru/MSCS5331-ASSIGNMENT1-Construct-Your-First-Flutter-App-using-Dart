@@ -1,15 +1,3 @@
-/* 
-  Simple Unit Converter app (Flutter)
-  Run instructions:
-   1. From the project root run: flutter pub get
-   2. Launch on an emulator/device: flutter run
-   3. Take a screenshot of the running app for your Word document deliverable.
-   4. Commit code to GitHub and include the repo URL in your documentation.
-  Rubric notes:
-   - Application Requirement Delivery: 20%
-   - Coding Standards: 40%
-   - Runtime, Correctness, Submission: 40%
-*/
 
 import 'package:flutter/material.dart';
 
